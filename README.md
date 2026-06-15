@@ -106,8 +106,9 @@ pip install "psycopg[binary]" numpy plotly pandas python-dotenv
 pip freeze > requirements.txt
 ```
 
-# 运行图
-![](https://cdn.nlark.com/yuque/0/2026/png/49294425/1781436375314-0b4d2196-1f04-486d-a866-b57c08a13c05.png)
+```bash
+git clone
+```
 
 
 
