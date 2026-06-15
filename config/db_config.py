@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def get_conn_params() -> dict:
-    """安全获取数据库连接参数，避免硬编码"""
+    """获取数据库连接参数，避免硬编码"""
     return {
         "host": os.getenv("DB_HOST", "localhost"),
         "port": int(os.getenv("DB_PORT", 5432)),
