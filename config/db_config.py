@@ -10,6 +10,6 @@ def get_conn_params() -> dict:
         "host": os.getenv("DB_HOST", "localhost"),
         "port": int(os.getenv("DB_PORT", 5432)),
         "dbname": os.getenv("DB_NAME", "exat"),
-        "user": os.getenv("DB_USER", "yan"),
-        "password": os.getenv("DB_PASSWORD", "123456")
+        "user": os.getenv("DB_USER", "YAN"),
+        "password": os.getenv("DB_PASSWORD", "YAN@2039361436")
     }
